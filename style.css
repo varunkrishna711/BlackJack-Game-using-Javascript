@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    border: 1px solid black;
+    width:75%;
+    margin: 0 auto;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+    width:75%;
+    margin: 0 auto;
+}
+#but1{
+    margin-right: 250px;
+
+}
+.js1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+#buttons2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+.container2{
+    border:1px solid red;
+    width:75%;
+    margin:0 auto;
+}
+.flex-box{
+    border:1px solid blue;
+    width:75%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-box img{
+    padding: 10px;
+}
+.flex-box-rps, .flex-box-btn, .flex-bj-row1, .flex-bj-row2, .flex-bj-row3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 189px;
+    margin-right: 189px;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+    cursor: pointer;
+}
+.container5{
+    text-align: center;
+    border: 1px solid black;
+}
+.flex-bj-row1, .flex-bj-row2{
+    background: url('https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1206505233?k=6&m=1206505233&s=612x612&w=0&h=3yK8zXZmrh3-tRVtw0wY-AiTTwnqFf_mmNlIGAjlr4E=') center;
+    color:#ffff;
+}
+.flex-bj-row1 div{
+    border:1px solid black;
+    padding: 10px;
+    height:350px;
+    flex: 1;     /*means give yourserf equal importance. Space equally*/ 
+    text-align: center;
+}
+.flex-bj-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-bj-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+table, table th, table td{
+    padding: 5px;
+    border: 1px solid black;
+}
